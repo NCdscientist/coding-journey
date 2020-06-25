@@ -1,0 +1,52 @@
+body{
+    color: grey;
+
+    font: normal 16px Arial,Helvetica, sans-serif;
+    line-height: 1.5em;
+
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.box-1{
+    background-color: black;
+    color: white;
+    border: 10px red solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box-1 h1{
+    font:50px helvetica sanserif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-wrap: ;
+   
+}
+.box-2{
+    background-color: black;
+    color: red;
+    border: red solid 10px;
+    padding: 30px;
+    margin: 40px;
+    font-size: 20px;
+}
+.categories{
+    border:5px grey solid;
+    padding: 10px; 
+}
+.categories h2{
+    text-align: center;
+}
+a:hover{
+color: black;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px brown;
+    list-style-image:url('../images/check.png');
+}
